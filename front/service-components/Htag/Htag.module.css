@@ -1,0 +1,22 @@
+.h2 {
+  color: #21201f;
+  overflow: hidden;
+  font-size: 40px;
+  line-height: 50px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  letter-spacing: -0.025em;
+  font-weight: 900;
+}
+
+.h3 {
+  overflow: hidden;
+  font-weight: 700;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #21201f;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  margin-bottom: 2px;
+}

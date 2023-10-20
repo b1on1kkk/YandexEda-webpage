@@ -1,0 +1,138 @@
+.navigation_wrapper {
+  position: relative;
+  margin-top: 60px;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  border-radius: 22px;
+  justify-content: space-between;
+  background-color: #f5f4f2;
+}
+
+.navigation_wrapper nav {
+  flex: 1;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.navigation_wrapper ul {
+  height: 48px;
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navigation_wrapper ul a {
+  color: black;
+}
+
+.more_li_button img {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+
+.navigation_wrapper li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 18px;
+  transition: background 0.2s ease;
+  font-family: YSText, sans-serif;
+  line-height: 48px;
+  border-radius: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+.li_navigation_status {
+  background: #ffffff;
+}
+
+.navigation_wrapper li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.modal_more_navigation_window {
+  position: absolute;
+  z-index: 100;
+  width: 330px;
+  height: 330px;
+  top: 80px;
+  left: 175px;
+  background-color: white;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  overflow: auto;
+  border-radius: 25px;
+  animation-name: popup;
+  animation-duration: 0.2s;
+}
+
+@media (max-width: 1000px) {
+  .modal_more_navigation_window {
+    left: 10px;
+  }
+}
+
+.modal_inner_elements {
+  cursor: pointer;
+  display: flex;
+  padding: 14px 24px;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  font-family: YSText, sans-serif;
+}
+
+.more_li_button {
+  position: relative;
+}
+
+.modal_inner_elements:hover {
+  background: #f5f4f2;
+}
+
+.modal_more_navigation_window::-webkit-scrollbar {
+  width: 8px;
+  -webkit-appearance: none;
+}
+.modal_more_navigation_window::-webkit-scrollbar-track {
+  background: #f5f4f2;
+}
+
+.modal_more_navigation_window::-webkit-scrollbar-thumb {
+  background: #dedddb;
+}
+
+.sorting_button_wrapper {
+  padding: 6px 10px;
+}
+
+.sorting_button_wrapper button {
+  color: #21201f;
+  border: none;
+  display: flex;
+  position: relative;
+  font-size: 16px;
+  transition: all 0.2s ease-out;
+  align-items: center;
+  font-family: YSText, sans-serif;
+  line-height: 21px;
+  justify-content: center;
+}
+
+.sorting_button_wrapper button img {
+  margin-right: 10px;
+}
+
+@keyframes popup {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

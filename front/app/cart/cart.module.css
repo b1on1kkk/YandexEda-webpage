@@ -1,0 +1,108 @@
+.mobile_wrapper_header a {
+  color: black;
+}
+
+.mobile_wrapper_header {
+  display: flex;
+  top: 0;
+  position: sticky;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mobile_back_to_all_restaurants {
+  color: inherit;
+  width: 56px;
+  border: 0;
+  cursor: pointer;
+  height: 64px;
+  display: flex;
+  padding: 0;
+  background: none;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.mobile_back_to_all_restaurants svg {
+  width: 24px;
+  height: 24px;
+}
+
+.remove_mobile_basket svg {
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  margin: 20px;
+}
+
+.main_mobile_basket_title {
+  padding: 14px;
+  margin: 5px;
+  border-radius: 16px;
+  background-color: #f5f4f2;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.mobile_header_title {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.basket_footer_total_price {
+  border-radius: 16px;
+  padding: 0 18px;
+  width: 100%;
+  color: #21201f;
+  font-weight: 600;
+  background-color: #fce000;
+  border: none;
+  display: flex;
+  position: relative;
+  font-size: 17px;
+  transition: all 0.2s ease-out;
+  align-items: center;
+  line-height: 21px;
+  justify-content: center;
+  height: 56px;
+}
+
+.mobile_basket_payment {
+  padding: 8px 8px 16px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+
+.basket_footer_total_price_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  color: #21201f;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: -0.01em;
+}
+
+.main_mobile_basket_block {
+  height: 100%;
+}
+
+.main_mobile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main_mobile_basket {
+  flex: 1;
+  height: 100%;
+}

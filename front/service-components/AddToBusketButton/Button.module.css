@@ -1,0 +1,24 @@
+.busket_adder_button {
+  padding: 14px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  color: #21201f;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  min-width: 24px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.busket_adder_button span {
+  display: flex;
+  height: 100%;
+}
+
+.busket_adder_button svg {
+  width: 24px;
+  height: 24px;
+}

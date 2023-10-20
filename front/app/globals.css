@@ -1,0 +1,27 @@
+body {
+  background: #fff;
+  font-family: YSText, helvetica, arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+main {
+  margin-top: 80px;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+:root {
+  --white: #ffffff;
+  --primary-color: #fce000;
+  --delivery-color: rgb(90, 195, 26);
+  --primary-text-color: black;
+  --menues-color: #f5f4f2;
+  --menues-color-hover: #e7e6e4;
+  --free-delivery: rgba(250, 224, 152, 0.8);
+}

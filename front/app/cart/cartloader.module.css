@@ -1,0 +1,46 @@
+.skeleton_total_price_block_loader,
+.skeleton_product_loader,
+.skeleton_title_loader {
+  height: 68px;
+  margin: 5px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  animation: skeleton-animation 0.5s linear infinite alternate;
+}
+.skeleton_product_loader {
+  margin-bottom: 5px;
+}
+
+.skeleton_product_loader:nth-child(3) {
+  margin-bottom: 20px;
+}
+
+.skeleton_service_price_loader {
+  display: flex;
+  margin: 5px;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.skeleton_service_price_text_loader {
+  width: 40%;
+  height: 20px;
+  border-radius: 16px;
+  animation: skeleton-animation 0.5s linear infinite alternate;
+}
+
+.skeleton_service_price {
+  height: 20px;
+  width: 18%;
+  border-radius: 16px;
+  animation: skeleton-animation 0.5s linear infinite alternate;
+}
+
+@keyframes skeleton-animation {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}

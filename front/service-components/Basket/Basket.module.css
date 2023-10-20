@@ -1,0 +1,164 @@
+.empty_basket_warning {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.basket_title {
+  display: flex;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  color: #21201f;
+  text-align: center;
+  white-space: pre-line;
+  padding: 16px;
+  margin-top: 4px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.basket_product_card {
+  position: relative;
+  display: flex;
+  padding: 8px 15px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+}
+
+.basket_picture_wrapper {
+  position: relative;
+  align-self: flex-start;
+  border-radius: 18px;
+}
+
+.basket_picture {
+  width: 69px;
+  height: 69px;
+  border-radius: 18px;
+}
+
+.basket_picture img {
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  position: absolute;
+  max-width: 100%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  width: 100%;
+  object-fit: cover;
+}
+
+.basket_product_title_wrapper {
+  flex-grow: 1;
+  margin-left: 8px;
+}
+
+.basket_product_title {
+  font-size: 13px;
+  line-height: 15px;
+  overflow: hidden;
+  word-break: break-word;
+  text-overflow: ellipsis;
+  margin: 6px 0 8px;
+}
+
+.basket_price_wrapper {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  margin-top: 4px;
+  align-items: flex-end;
+}
+
+.basket_price {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.basket_weight {
+  color: #9e9b98;
+  font-size: 14px;
+  line-height: 14px;
+  margin-left: 5px;
+}
+
+.basket_product_amount_wrapper {
+  display: flex;
+  min-width: 100px;
+  align-self: center;
+  flex-shrink: 0;
+  margin-left: 8px;
+  flex-direction: column;
+}
+
+.basket_product_amount {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  font-size: 13px;
+  align-items: center;
+  line-height: 14px;
+  white-space: nowrap;
+  border-radius: 16px;
+  justify-content: space-between;
+  background-color: #f5f4f2;
+}
+
+.less,
+.more {
+  color: #21201f;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  min-width: 24px;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
+}
+
+.less svg,
+.more svg {
+  width: 24px;
+  height: 24px;
+}
+
+.pay_for_service_working {
+  margin-top: 4px;
+  color: #21201f;
+  width: 100%;
+  border: 0;
+  display: block;
+  padding: 0 16px;
+  text-align: left;
+  background-color: transparent;
+}
+
+.pay_text_wrapper {
+  display: flex;
+  min-height: 40px;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.price {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+}

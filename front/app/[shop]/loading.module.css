@@ -1,0 +1,120 @@
+.main_skeleton_wrapper {
+  display: flex;
+  padding: 0px 6px;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.main_skeleton {
+  display: flex;
+  justify-content: center;
+}
+
+.left_aside_skeleton {
+  width: 232px;
+  margin-right: 32px;
+  position: relative;
+}
+
+.back_to_restaurants_skeleton {
+  position: fixed;
+  width: inherit;
+  height: 55px;
+  border-radius: 16px;
+  animation: skeleton-animation 0.5s linear infinite alternate;
+}
+
+.restaurant_product_wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product_skeleton {
+  height: 352px;
+  animation: skeleton-animation 0.5s linear infinite alternate;
+  margin: 3px;
+  border-radius: 16px;
+}
+
+.main_restaurant_menu_skeleton_wrapper {
+  width: 667px;
+}
+
+.products_layout {
+  padding-top: 30px;
+  background-color: #f5f4f2;
+}
+
+.restaurant_title_picture_skeleton {
+  height: 360px;
+  width: 100%;
+  animation: skeleton-animation 0.5s linear infinite alternate;
+  border-radius: 36px;
+}
+
+.restaurant_menu_block {
+  margin-top: 36px;
+}
+
+.restaurant_today_event_skeleton {
+  width: 100%;
+  height: 72px;
+  border-radius: 20px;
+  animation: skeleton-animation 0.5s linear infinite alternate;
+}
+
+.basket_skeleton {
+  border-radius: 24px 24px 0 0;
+  top: 112px;
+  width: 320px;
+  height: calc(100vh - 112px);
+  position: sticky;
+  animation: skeleton-animation 0.5s linear infinite alternate;
+  margin-left: 32px;
+  margin-bottom: -22px;
+}
+
+.back_to_restaurants_skeleton_mobile {
+  display: none;
+  width: 100%;
+  height: 72px;
+  border-radius: 20px;
+  animation: skeleton-animation 0.5s linear infinite alternate;
+  margin-top: 36px;
+}
+
+@keyframes skeleton-animation {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+
+@media (max-width: 1220px) {
+  .back_to_restaurants_skeleton_mobile {
+    display: block;
+  }
+  .left_aside_skeleton {
+    display: none;
+  }
+}
+
+@media (min-width: 1670px) {
+  .main_restaurant_menu_skeleton_wrapper {
+    width: 892px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .basket_skeleton {
+    display: none;
+  }
+
+  .main_restaurant_menu_skeleton_wrapper {
+    width: 892px;
+  }
+}
